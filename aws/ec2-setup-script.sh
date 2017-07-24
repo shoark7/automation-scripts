@@ -1,0 +1,1 @@
+/home/sunghwanpark/bin/aws-scripts/ec2-setup-script.sh
