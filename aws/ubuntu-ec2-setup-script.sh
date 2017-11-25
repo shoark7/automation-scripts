@@ -1,5 +1,18 @@
 #!/bin/sh
 
+# This script is for setting up a ubuntu aws instance automatically.
+# It does like below
+#   1. locale gen for korean like me.
+#   2. install nginx andppython3
+#   3. Grap my .vimrc configurations and install it in this instance.
+#
+# But this file is not complete because some confirmation message pops out
+# and blocks installation process.
+#
+# Last modified : 2017/11/25
+
+
+
 # Initialization
 clear
 echo "Initialize a instance"
