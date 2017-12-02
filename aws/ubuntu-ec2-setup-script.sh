@@ -19,7 +19,9 @@ echo "Initialize a instance"
 sudo apt-get update -q --yes --force-yes
 sudo apt-get upgrade -q --yes --force-yes
 sudo locale-gen ko_KR.UTF-8
-echo '\nexport LANG=ko_KR.UTF-8\nexport LC_ALL=C' >> ~/.bashrc
+
+echo '\n\n#Custom configuration for python3' >> ~/.bashrc
+echo 'export LANG=ko_KR.UTF-8\nexport LC_ALL=C' >> ~/.bashrc
 echo 'alias python=python3' >> ~/.bashrc
 echo 'alias pip=pip3' >> ~/.bashrc
 sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime
